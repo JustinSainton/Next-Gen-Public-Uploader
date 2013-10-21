@@ -230,8 +230,8 @@ if ( ! current_user_can('manage_options') )
 		<form action="options.php" method="post">
 
 			<?php
-				settings_fields('npu_settings');
-				do_settings_sections('nextgen-public-uploader');
+				settings_fields( 'npu_settings' );
+				do_settings_sections( 'nextgen-public-uploader' );
 			?>
 
 			<p class="submit">
